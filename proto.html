@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional LinkedIn Profile</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="prototypecss.css">
+</head>
+
+<body>
+<header>
+    <div class="hero-container">
+
+        <!-- LEFT SIDE IMAGE -->
+        <div class="hero-img">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+        <div class="hero-content">
+<h1>Hello, I'm <span>Subash Kodali</span></h1>
+<p>I am a passionate Web Developer & Programmer, building clean, modern, and user-friendly web experiences.</p>
+            <p class="headline">HTML | CSS | JavaScript</p>
+
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/subash-kodali" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/subashkodali" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/KodaliSuba81907" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/subash_kodali_/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("header").classList.add("loaded");
+});
+</script>
+</section>
+<div class="container">
+    <!-- NAVIGATION BAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Menu Icon -->
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+<!-- ABOUT -->
+<section class="about">
+    <h2><i class="fas fa-user"></i> About Me</h2>
+
+    <p>I’m Subash Kodali, a passionate and self-driven learner with a strong interest in web development and programming. I enjoy building clean, user-friendly websites and exploring new technologies that enhance the digital experience. I’m constantly improving my skills through hands-on projects and continuous learning.</p>
+
+    <p>There will be moments of doubt and mistakes, but I know mistakes are lessons in disguise. I'm ready to learn and adapt.</p>
+
+    <p>I believe in my hard work and dedication. This training will be my stepping stone toward a bright future.</p>
+</section>
+
+
+<!-- EDUCATION -->
+<section class="education">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+
+    <div class="education-item">
+        <div class="item-header">
+            <span class="item-title">DIPLOMA</span>
+            <span class="item-date">2023 – 2026</span>
+        </div>
+        <div class="item-subtitle">Computer Engineering</div>
+        <p>A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru</p>
+    </div>
+
+    <div class="education-item">
+        <div class="item-header">
+            <span class="item-title">SCHOOL</span>
+            <span class="item-date">2010 – 2023</span>
+        </div>
+        <div class="item-subtitle">Secondary School Education</div>
+        <p>Vijaya Sri Sunflower High School, Kosuru</p>
+    </div>
+</section>
+
+
+<!-- SKILLS -->
+<section class="skills">
+    <h2><i class="fas fa-tools"></i> Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">C++</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h3>Databases</h3>
+            <div class="tags">
+                <span class="tag">SQL</span>
+                <span class="tag">MongoDB</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- INTERESTS -->
+<section id="interests">
+    <div class="section-header">
+        <div class="section-title">
+            <svg width="20" height="20"><path fill="#87CEFA" d="M12 2a10 10 0 100 20 10 10 0 000-20z"/></svg>
+            <div>
+                <h2>Interests</h2>
+                <div class="section-sub">What motivates me</div>
+            </div>
+        </div>
+        <div class="tiny">Hobbies & learning</div>
+    </div>
+
+    <div class="card">
+        <div class="tags">
+            <div class="tag">Frontend Development</div>
+            <div class="tag">Internet Browsing</div>
+            <div class="tag">Web Design</div>
+            <div class="tag">Programming</div>
+            <div class="tag">Cycling</div>
+            <div class="tag">Reading Books</div>
+        </div>
+    </div>
+</section>
+
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <div class="section-header">
+        <div class="section-title">
+            <svg width="20" height="20"><path fill="#87CEFA" d="M12 2l2.5 5.1L20 8l-4 3.9L17 17l-5-2.6L7 17l1-5.1L4 8l5.5-.9z"/></svg>
+            <div>
+                <h2>Licenses & Certifications</h2>
+                <div class="section-sub">Professional credentials</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="certifications-container">
+
+        <div class="certification-item">
+            <i class="fas fa-certificate certification-icon"></i>
+            <div class="certification-content">
+                <h3>Excel → Power BI → Data Analyst</h3>
+                <a href="certi.html" target="_blank">View Certification</a>
+            </div>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate certification-icon"></i>
+            <div class="certification-content">
+                <h3>Prototype & Demo Submission – Build With Gemini</h3>
+                <a href="cert.html" target="_blank">View Certification</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+    <div class="section-header">
+        <div class="section-title">
+            <svg width="20" height="20"><path fill="#87CEFA" d="M3 13h8V3H3zM13 21h8V11h-8zM13 3v8h8V3h-8zM3 21h8v-8H3z"/></svg>
+            <div>
+                <h2>Projects</h2>
+                <div class="section-sub">Selected work</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card">
+       <h3>Live Weather Monitoring System</h3>
+        <p class="tiny">Role: Frontend Engineer</p>
+        <ul><li>Responsive UI & Realtime Updates</li></ul>
+        <a href="https://live-weather-monitoring.vercel.app/" target="_blank" class="project-link">view project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Campus Hub</h3>
+        <p class="tiny">Role: Frontend Engineer</p>
+        <ul><li>Charts, Tables & Lazy Loading</li></ul>
+        <a href="https://campus-hub-siddharth.vercel.app/" target="_blank" class="project-link">View Project</a>
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+
+    <div class="contact-grid">
+        <div class="contact-info">
+            <p><i class="fas fa-user"></i> <strong>Subash Kodali</strong></p>
+            <p><i class="fas fa-briefcase"></i> Student, Computer Engineering</p>
+            <p><i class="fas fa-map-marker-alt"></i> A.A.N.M & V.V.R.S.R Polytechnic, Gudlavalleru</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:kodalisubah140@gmail.com">kodalisubah140@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> 7997291790</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- FOOTER SECTION -->
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>Subash Kodali</h3>
+            <p>Web Developer | Programmer | editor</p>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p><i class="fa-solid fa-phone"></i> +91 799729190</p>
+            <p><i class="fa-solid fa-envelope"></i> koalisubash140@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Follow Me on</h3>
+            <p>
+                <a href="https://www.linkedin.com/in/subash-kodali" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>for more detials follow LinkedIn
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/subashkodali" target="_blank">
+                    <i class="fa-brands fa-github"></i>for more deails follow  GitHub
+                </a>
+            </p>
+            <p>
+                <a href="https://wa.me/+917997291790" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>for more details follow on WhatsApp
+                </a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/subash_kodali_/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>for more details follow on instagram
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Subash Kodali. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Section Animation -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = document.querySelectorAll('section');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => {
+        section.style.opacity = 0;
+        section.style.transform = 'translateY(20px)';
+        section.style.transition = '0.6s ease';
+        observer.observe(section);
+    });
+});
+</script>
+
+</body>
+</html>
